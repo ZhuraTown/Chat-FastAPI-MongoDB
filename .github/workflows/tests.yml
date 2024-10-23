@@ -52,7 +52,7 @@ jobs:
           poetry config virtualenvs.create false && \
           poetry install
 
-      - name: Run tests
+      - name: Run tests Users
         run: | 
-          cd src && \
+          cd users && \
           python -m pytest
